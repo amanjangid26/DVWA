@@ -22,7 +22,7 @@ services:
     networks:
       - dvwa
     ports:
-      - 18.205.154.83:8000:80
+      - 8000:80
     restart: unless-stopped
 
   db:
